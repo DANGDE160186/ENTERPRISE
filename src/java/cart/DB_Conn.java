@@ -1,17 +1,11 @@
-/*
- * To change this template, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package cart;
 
 import java.sql.*;
-/*
- *
- * @author Chirag
- */
+
 public class DB_Conn {
 
-    private String database="saikiran enterprises", username = "chirag", password = "1234567";
+    private String database="saikiran enterprises", username = "root", password = "root";
     private Connection con;
     
     public Connection getConnection() throws SQLException, ClassNotFoundException  {
